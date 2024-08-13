@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniutr</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+        tailwind.config = {
+          theme: {
+            fontFamily: {
+          'Nunito Sans': ["Nunito Sans"],
+          'Nunito': ["Nunito"],
+          'Montserrat': ["Montserrat"],
+        },
+            container: {
+              padding: {
+                center: true,
+                DEFAULT: "10px",
+                sm: "20px",
+                lg: "30px",
+    
+                xl: "45px",
+                "2xl": "75px",
+              },
+    
+                extend: {
+                  colors: {
+                    my: "#282A30",
+                    second: "#F7515C",
+                  },
+                },
+              },
+            },
+          }
+        
+      </script>
+</head>
+<body>
+    <header class="container  flex flex-row justify-between items-center py-1 bg-white w-[100%] h-[100px] fixed z-50 ">
+        <img src="./images/Furniutr..png" alt="logo" class="mx-5">
+        
+            <ul class="hidden lg:flex lg:gap-10 font-Nunito Sans text-[#282A30]">
+                <li>Home</li>
+                <li>About</li>
+                <li>Collection</li>
+                <li>Shop</li>
+            </ul>
+            <div class="flex gap-[50px] ">
+                <img src="./images/bag.png" alt="" class="hidden xl:flex">
+                <img src="./images/search.png" alt="" class="hidden xl:flex">
+                    <i class="fa-solid fa-bars text-[33px] mx-2 xl:hidden"></i>
+            </div>
+    </header>
+    
+
+    
+    <main>
+        <section class="container py-[200px] mx-5">
+            <div class="flex flex-col lg:flex-row">
+                <div class="flex flex-col py-[150px]">
+                    <h2 class="font-bold text-[#F7515C] text-sm lg:text-start text-center">DECORATE HOME</h2>
+                    <h1 class="mt-6 font-Montserrat lg:text-start font-bold  leading-[67.05px] text-center  text-[#282A30] text-4xl lg:max-w-[60%]">Feel your home 
+                        with a modern design
+                        space</h1>
+                        <div class="flex flex-col sm:flex-row text-center lg:items-start lg:justify-start items-center justify-center">
+                            <button class="w-[180px] h-[58px] py-0 bg-[#F7515C] border-1px border-transparent text-white lg:mt-7 font-Montserrat">Discover</button>
+                            <img src="./images/btn-watch.png" alt="" class="mr-10 mt-  w-[180px]">
+                        </div>
+                   </div>
+                   <img src="./images/image 1.png" alt="" class="mx-10  mb-[50px]">
+            </div>
+        
+                
+           
+        </section>
+        <section class="container">
+            <div class="flex flex-col sm:flex lg:flex-row">
+                <img src="./images/image 2.png" alt="" class="w-[1300px] px-7 text-center">
+                <div class="flex flex-col sm:py-[230px] gap-2 mt-8 mx-7 ">
+                  <div class="">
+                    <h1 class="font-Montserrat font-bold  text-4xl text-[#282A30] lg:text-start ">About</h1>
+                    <!-- <h1 class="font-Montserrat font-bold  mt-4 text-3xl sm:text-start text-border-[2px] text-border-[#282A30]  text-center">Furniture</h1> -->
+                    <img src="./images/Furniture.png" alt="" class="mt-[20px]">
+                  </div>
+                    <p class="mt-7 max-w-[60%] font-Nunito text-[#282A3080]">People have been using natural objects, such as tree 
+                        stumps, rocks and moss, as furniture since the 
+                        beginning of human civilisation. </p>
+                        <div class="flex sm:justify-start sm:items-start justify-center items-center mt-5">
+                          <button class="w-[170px]  h-[48px] py-0 bg-[#F7515C] text-white lg:mt-4 font-Montserrat ">Read more</button>
+                        </div>
+                   
+                </div>
+            </div>
+        </section>
+        <section class="container py-[200px] mx-5">
+              <div>
+                <h1 class="font-Montserrat font-semibold text-4xl">More value from this</h1>
+                <img src="./images/Furniture (1).png" alt="" class="py-7">
+              </div>
+              <div class="py-[120px]">
+                <div class="flex justify-center items-center">
+                  <img src="./images/Rectangle 9.png" alt="" class="relative">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                  <img src="./images/Long warranty.png" alt="" class="xl:absolute xl:top-[2400px] xl:right-7 w-[600px] ">
+                  <img src="./images/Full services.png" alt="" class="xl:absolute xl:top-[2600px] xl:left-0 w-[600px]">
+                  <img src="./images/Modern design.png" alt="" class="xl:absolute xl:top-[2900px] xl:right-[-70px] w-[600px]">
+                </div>
+             
+              </div>
+        </section>
+        <section class="container py-[100px] mx-5">
+          <div class="flex flex-col xl:flex-row xl:gap-[500px] px-12">
+            <div class="flex flex-col justify-start items-start gap-4">
+              <h1 class="font-Montserrat font-semibold text-2xl lg:text-4xl">Our you have to buy
+              </h1>
+              <img src="./images/Product.png" alt="" class="w-[300px] lg:w-[422px]">
+            </div>
+            <div class="py-[50px] flex xl:justify-end xl:items-end gap-2 xl:mt-[80px]">
+              <i class="fa-regular fa-circle-left text-3xl"></i>
+              <i class="fa-regular fa-circle-right text-3xl"></i>
+            </div>
+          </div>
+          <div class="flex flex-col xl:flex-row justify-center items-center xl:justify-start xl:items-start xl:pr-11">
+            <img src="./images/1.png" alt="" class="max-w-[300px] ">
+            <img src="./images/2.png" alt="" class="max-w-[300px]">
+            <img src="./images/3.png" alt="" class="max-w-[300px]">
+            <img src="./images/4.png" alt="" class="max-w-[300px]">
+          </div>
+        </section>
+        <section class="container py-[100px] mx-5">
+          <div class="flex flex-col lg:flex-row lg:gap-[400px] justify-center items-center">
+            <div class="flex flex-col gap-7 lg:mt-[100px] xl:mt-[180px]">
+              <img src="./images/Let’s.png" alt="" class="w-[250px]">
+              <h1 class="font-Montserrat font-bold text-6xl">Try Now </h1>
+              <button class="w-[180px] h-[58px] py-0 bg-[#F7515C] border-1px border-transparent text-white lg:mt-7 font-Montserrat mt-[50px]">Explore</button>
+            </div>
+            <div class="mt-6">
+              <img src="./images/Rectangle 18 (1).png" alt="">
+            </div>
+          
+          </div>
+           
+        </section>
+    </main>
+    <footer class="container py-[100px] mx-5 gap-[50px] ">
+      <hr class="w-[1242px] text-[#282A30] h-[2px]">
+      <div class="flex flex-col lg:flex-row lg:gap-[250px] lg:mt-[100px] justify-center items-center">
+        <div class="flex flex-col gap-3">
+          <h1 class="font-Montserrat font-semibold text-xl">Get’s your 
+            discount</h1>
+            <h3 class="font-Montserrat mt-4">Check now !</h3>
+        </div>
+        <div class="flex flex-col gap-3 mt-7 lg:mt-0">
+          <h1 class="font-Montserrat font-semibold text-xl ">Our services</h1>
+          <h3 class="font-Montserrat">Collection</h3>
+          <h3 class="font-Montserrat">How its work</h3>
+          <h3 class="font-Montserrat">Estimats</h3>
+        </div>
+        <div class="flex flex-col gap-3 mt-7 lg:mt-0">
+          <h1 class="font-Montserrat font-semibold text-xl">Company</h1>
+          <h3 class="font-Montserrat">Terms of use</h3>
+          <h3 class="font-Montserrat">Privacy policy</h3>
+          <h3 class="font-Montserrat">Careers</h3>
+        </div>
+        <div class="flex flex-col gap-3  justify-center items-center  mt-7 lg:mt-0">
+          <h1 class="font-Montserrat font-semibold text-xl">Contact</h1>
+          <h3 class="font-Montserrat">Furniutr2@furniture.com</h3>
+          <h3 class="font-Montserrat">(888) 315-500</h3>
+          <h3 class="font-Montserrat">St. VIllage, New
+            York</h3>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
